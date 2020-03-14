@@ -223,7 +223,7 @@
                 <div class="row">
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="../img/more-laminata.png" alt="more laminata">
+                            <img src="{{ asset('img/more-laminata.png') }}" alt="more laminata">
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
@@ -235,7 +235,7 @@
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="../img/bani.jpg" alt="more laminata">
+                            <img src="{{ asset('img/bani.jpg') }}" alt="more laminata">
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
@@ -247,7 +247,7 @@
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="../img/laliga.png" alt="more laminata">
+                            <img src="{{ asset('img/laliga.png') }}" alt="more laminata">
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
@@ -271,7 +271,7 @@
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="../img/wood-brick.jpg" alt="more laminata">
+                            <img src="{{ asset('img/wood-brick.jpg') }}" alt="more laminata">
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
@@ -283,7 +283,7 @@
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="../img/bikor.jpg" alt="more laminata">
+                            <img src="{{ asset('img/bikor.jpg') }}" alt="more laminata">
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
@@ -327,18 +327,18 @@
                                     </select>
                                 </div>
                                 <div class="group">
-                                    <input type="text" value="" name="name" placeholder="Имя">
+                                    <input type="text" value="" name="name" placeholder="Имя" autocomplete="off">
                                 </div>
                                 <div class="group group-two">
                                     <div class="group">
-                                        <input type="email" value="" name="email" placeholder="Email">
+                                        <input type="email" value="" name="email" placeholder="Email" autocomplete="off">
                                     </div>
                                     <div class="group">
-                                        <input type="text" value="" name="phone" placeholder="Телефон">
+                                        <input type="text" value="" name="phone" placeholder="Телефон" autocomplete="off">
                                     </div>
                                 </div>
                                 <div class="info">
-                                    Оставляя заявку, вы соглашаетесь на обратку персональных данных
+                                    Оставляя заявку, Вы соглашаетесь на обработку персональных данных
                                 </div>
                                 <div class="center">
                                     <button class="btn" type="submit">Заказать</button>
@@ -637,11 +637,11 @@
                                         <input type="email" value="" name="email" placeholder="Email" required autocomplete="off">
                                     </div>
                                     <div class="group">
-                                        <input type="text" value="" name="phone" placeholder="Телефон">
+                                        <input type="text" value="" name="phone" placeholder="Телефон" required autocomplete="off">
                                     </div>
                                 </div>
                                 <div class="info">
-                                    Оставляя заявку, вы соглашаетесь на обратку персональных данных
+                                    Оставляя заявку, Вы соглашаетесь на обработку персональных данных
                                 </div>
                                 <div class="center">
                                     <button class="btn" type="submit">Отправить</button>

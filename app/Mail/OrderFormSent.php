@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
@@ -36,7 +35,7 @@ class OrderFormSent extends Mailable
     public function build(): self
     {
         return $this->from(config('mail.from.address'))
-            ->subject('Форма: заказ услуги')
+            ->subject('Форма: заказ услуги - promo')
             ->view('emails.order_form', [
                 'data' => $this->data
             ]);

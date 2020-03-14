@@ -3,7 +3,6 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
@@ -30,7 +29,7 @@ class ContactFormSent extends Mailable
     public function build(): self
     {
         return $this->from(config('mail.from.address'))
-            ->subject('Форма: связаться с нами')
+            ->subject('Форма: связаться с нами - promo')
             ->view('emails.contact_form', [
                 'data' => $this->data
             ]);
