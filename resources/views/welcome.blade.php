@@ -317,7 +317,7 @@
                             <form action="{{ route('send.order') }}" id="order-form" method="post">
                                 @csrf
                                 <div class="group">
-                                    <select name="service">
+                                    <select name="service" required>
                                         <option value="Корпоративный сайт">Корпоративный сайт</option>
                                         <option value="Landing page">Landing page</option>
                                         <option value="Сайт-визитка">Сайт-визитка</option>
@@ -327,14 +327,14 @@
                                     </select>
                                 </div>
                                 <div class="group">
-                                    <input type="text" value="" name="name" placeholder="Имя" autocomplete="off">
+                                    <input type="text" value="" name="name" placeholder="Имя" autocomplete="off" required>
                                 </div>
                                 <div class="group group-two">
                                     <div class="group">
-                                        <input type="email" value="" name="email" placeholder="Email" autocomplete="off">
+                                        <input type="email" value="" name="email" placeholder="Email" autocomplete="off" required>
                                     </div>
                                     <div class="group">
-                                        <input type="text" value="" name="phone" placeholder="Телефон" autocomplete="off">
+                                        <input type="text" value="" name="phone" placeholder="Телефон" autocomplete="off" required>
                                     </div>
                                 </div>
                                 <div class="info">
