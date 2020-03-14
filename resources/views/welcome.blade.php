@@ -619,9 +619,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="center">
-                            <div class="s-title">Наши контакты</div>
-                        </div>
+                        <div class="s-title">Наши контакты</div>
                     </div>
                 </div>
                 <div class="row">
