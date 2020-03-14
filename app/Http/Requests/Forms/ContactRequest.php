@@ -8,10 +8,10 @@ use App\Http\Requests\Request;
 use App\Rules\NotUrl;
 
 /**
- * Class OrderRequest
+ * Class ContactRequest
  * @package App\Http\Requests\Forms
  */
-class OrderRequest extends Request
+class ContactRequest extends Request
 {
     /**
      * @return array
@@ -21,8 +21,7 @@ class OrderRequest extends Request
         return [
             'phone' => ['required', 'string', 'min:3', new NotUrl],
             'name' => ['required', 'string', 'min:3', new NotUrl],
-            'email' => ['required', 'email', new NotUrl],
-            'service' => ['required', 'string']
+            'email' => ['required', 'email', new NotUrl]
         ];
     }
 
@@ -36,7 +35,6 @@ class OrderRequest extends Request
         return [
             'name.required' => 'Поле «Имя» обязательно для заполнения',
             'phone.required' => 'Поле «Телефон» обязательно для заполнения',
-            'service.required' => 'Поле «Услуга» обязательно для заполнения',
             'email.required' => 'Поле «Email» обязательно для заполнения'
         ];
     }

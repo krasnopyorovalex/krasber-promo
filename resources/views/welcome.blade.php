@@ -695,6 +695,7 @@
                 </div>
             </div>
         </section>
+        <div class="notify"></div>
         <script src="{{ asset('js/main.min.js') }}"></script>
         <script src="{{ asset('js/vendor.min.js') }}"></script>
     </body>
