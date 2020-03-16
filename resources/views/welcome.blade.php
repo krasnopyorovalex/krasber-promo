@@ -223,73 +223,73 @@
                 <div class="row">
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="{{ asset('img/more-laminata.png') }}" alt="more laminata">
+                            <img src="{{ asset('img/more-laminata.png') }}" alt="Создание сайта-каталога ламината">
                             <div class="c-item-text">
-                                <div class="name">Продажа билетов в Москве</div>
+                                <div class="name">Создание сайта-каталога ламината в Симферополе</div>
                                 <div class="tags">
                                     сайт-каталог, уникальный дизайн, авторская ЦМС
                                 </div>
-                                <a href="#" target="_blank" class="btn">Подробнее</a>
+                                <a href="https://krasber.ru/portfolio/sayta-katalog-laminata-v-simferopole" target="_blank" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="{{ asset('img/bani.jpg') }}" alt="more laminata">
+                            <img src="{{ asset('img/bani.jpg') }}" alt="Создание интернет-магазина">
                             <div class="c-item-text">
-                                <div class="name">Продажа билетов в Москве</div>
+                                <div class="name">Создание интернет-магазина в Севастополе</div>
                                 <div class="tags">
                                     сайт-каталог, уникальный дизайн, авторская ЦМС
                                 </div>
-                                <a href="#" target="_blank" class="btn">Подробнее</a>
+                                <a href="https://krasber.ru/portfolio/sayt-magazin-dlya-ban" target="_blank" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="{{ asset('img/laliga.png') }}" alt="more laminata">
+                            <img src="{{ asset('img/laliga.png') }}" alt="Продажа билетов на спортивные мероприятия">
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
                                     сайт-каталог, уникальный дизайн, авторская ЦМС
                                 </div>
-                                <a href="#" target="_blank" class="btn">Подробнее</a>
+                                <a href="https://krasber.ru/portfolio/championsleague-tickets" target="_blank" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="../img/sani.jpg" alt="more laminata">
+                            <img src="{{ asset('img/sani.jpg') }}" alt="Создание сайта для отеля SANY">
                             <div class="c-item-text">
-                                <div class="name">Продажа билетов в Москве</div>
+                                <div class="name">Создание сайта для отеля SANY, Николаевка</div>
                                 <div class="tags">
-                                    сайт-каталог, уникальный дизайн, авторская ЦМС
+                                    корпоративный сайт, дизайн, верстка, cms
                                 </div>
-                                <a href="#" target="_blank" class="btn">Подробнее</a>
+                                <a href="https://krasber.ru/portfolio/sayt-dlya-otelya-sany" target="_blank" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="{{ asset('img/wood-brick.jpg') }}" alt="more laminata">
+                            <img src="{{ asset('img/wood-brick.jpg') }}" alt="Сайт строительства домов в Севастополе и Крыму">
                             <div class="c-item-text">
-                                <div class="name">Продажа билетов в Москве</div>
+                                <div class="name">Сайт строительства домов в Крыму</div>
                                 <div class="tags">
-                                    сайт-каталог, уникальный дизайн, авторская ЦМС
+                                    сайт-каталог, готовый дизайн, авторская ЦМС
                                 </div>
-                                <a href="#" target="_blank" class="btn">Подробнее</a>
+                                <a href="https://krasber.ru/portfolio/sayt-dlya-stroitelstva-domov" target="_blank" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="c-item">
-                            <img src="{{ asset('img/bikor.jpg') }}" alt="more laminata">
+                            <img src="{{ asset('img/bikor.jpg') }}" alt="Разработка сайта для лакокрасочной организации">
                             <div class="c-item-text">
-                                <div class="name">Продажа билетов в Москве</div>
+                                <div class="name">Разработка сайта для лакокрасочной организации</div>
                                 <div class="tags">
-                                    сайт-каталог, уникальный дизайн, авторская ЦМС
+                                    cms, корпоративный сайт, готовый дизайн
                                 </div>
-                                <a href="#" target="_blank" class="btn">Подробнее</a>
+                                <a href="https://krasber.ru/portfolio/bikor-tech" target="_blank" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
