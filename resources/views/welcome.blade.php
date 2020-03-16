@@ -28,7 +28,7 @@
         <link href="{{ asset('css/main.min.css') }}" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <nav>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -78,6 +78,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </nav>
+        <header>
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="h-title">
