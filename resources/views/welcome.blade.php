@@ -34,8 +34,8 @@
                     <div class="col-12">
                         <div class="h-top">
                             <div class="h-top-logo">
-                                <a href="/">
-                                    <img src="../img/logo_blue.svg" alt="logo">
+                                <a href="{{ route('home') }}">
+                                    <img src="{{ asset('img/logo_blue.svg') }}" alt="Создание сайта в веб-студии Красбер" title="Веб-студия Красбер" >
                                 </a>
                             </div>
                             <div class="h-top-menu">
@@ -225,9 +225,9 @@
                         <div class="c-item">
                             <img src="{{ asset('img/more-laminata.png') }}" alt="Создание сайта-каталога ламината">
                             <div class="c-item-text">
-                                <div class="name">Создание сайта-каталога ламината в Симферополе</div>
+                                <div class="name">Каталог ламината Симферополь</div>
                                 <div class="tags">
-                                    сайт-каталог, уникальный дизайн, авторская ЦМС
+                                    сайт-каталог, готовый дизайн, подключение CMS
                                 </div>
                                 <a href="https://krasber.ru/portfolio/sayta-katalog-laminata-v-simferopole" target="_blank" class="btn">Подробнее</a>
                             </div>
@@ -237,9 +237,9 @@
                         <div class="c-item">
                             <img src="{{ asset('img/bani.jpg') }}" alt="Создание интернет-магазина">
                             <div class="c-item-text">
-                                <div class="name">Создание интернет-магазина в Севастополе</div>
+                                <div class="name">Каталог бань в Севастополе</div>
                                 <div class="tags">
-                                    сайт-каталог, уникальный дизайн, авторская ЦМС
+                                    сайт-каталог, готовый дизайн, подключение CMS
                                 </div>
                                 <a href="https://krasber.ru/portfolio/sayt-magazin-dlya-ban" target="_blank" class="btn">Подробнее</a>
                             </div>
@@ -251,7 +251,7 @@
                             <div class="c-item-text">
                                 <div class="name">Продажа билетов в Москве</div>
                                 <div class="tags">
-                                    сайт-каталог, уникальный дизайн, авторская ЦМС
+                                    сайт-каталог, уникальный дизайн, авторская CMS
                                 </div>
                                 <a href="https://krasber.ru/portfolio/championsleague-tickets" target="_blank" class="btn">Подробнее</a>
                             </div>
@@ -261,9 +261,9 @@
                         <div class="c-item">
                             <img src="{{ asset('img/sani.jpg') }}" alt="Создание сайта для отеля SANY">
                             <div class="c-item-text">
-                                <div class="name">Создание сайта для отеля SANY, Николаевка</div>
+                                <div class="name">Сайт отеля Николаевка</div>
                                 <div class="tags">
-                                    корпоративный сайт, дизайн, верстка, cms
+                                    корпоративный сайт, готовый дизайн, CMS
                                 </div>
                                 <a href="https://krasber.ru/portfolio/sayt-dlya-otelya-sany" target="_blank" class="btn">Подробнее</a>
                             </div>
@@ -273,9 +273,9 @@
                         <div class="c-item">
                             <img src="{{ asset('img/wood-brick.jpg') }}" alt="Сайт строительства домов в Севастополе и Крыму">
                             <div class="c-item-text">
-                                <div class="name">Сайт строительства домов в Крыму</div>
+                                <div class="name">Каталог по строительству Крым</div>
                                 <div class="tags">
-                                    сайт-каталог, готовый дизайн, авторская ЦМС
+                                    сайт-каталог, готовый дизайн, подключение CMS
                                 </div>
                                 <a href="https://krasber.ru/portfolio/sayt-dlya-stroitelstva-domov" target="_blank" class="btn">Подробнее</a>
                             </div>
@@ -287,7 +287,7 @@
                             <div class="c-item-text">
                                 <div class="name">Разработка сайта для лакокрасочной организации</div>
                                 <div class="tags">
-                                    cms, корпоративный сайт, готовый дизайн
+                                    сайт-каталог, готовый дизайн, подключение CMS
                                 </div>
                                 <a href="https://krasber.ru/portfolio/bikor-tech" target="_blank" class="btn">Подробнее</a>
                             </div>
@@ -321,7 +321,7 @@
                                         <option value="Корпоративный сайт">Корпоративный сайт</option>
                                         <option value="Landing page">Landing page</option>
                                         <option value="Сайт-визитка">Сайт-визитка</option>
-                                        <option value="Промо-визитка">Промо-визитка</option>
+                                        <option value="Промо-сайт">Промо-визитка</option>
                                         <option value="Сайт-каталог">Сайт-каталог</option>
                                         <option value="Интернет-магазин">Интернет-магазин</option>
                                     </select>
@@ -379,7 +379,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        <span>Наполнение сайта</span>
+                                        <span>Шаблонный либо уникальный дизайн</span>
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -387,7 +387,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Верстка проекта
+                                        Адаптация под мобильные устройства
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -395,7 +395,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Формы захвата
+                                        Верстка макета сайта с нуля либо адаптация под корпоративные цвета и услуги вашего бизнеса
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -403,15 +403,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Управление через CMS
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Уникальный/шаблонный дизайн
+                                        Управление содержимым сайта через CMS
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -427,7 +419,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Уникальный/шаблонный дизайн
+                                        Формы захвата
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -435,7 +427,23 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Подключение дополнительных виджетов
+                                        Установка виджетов
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Меню навигации
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Представление в лучшем виде информации и Вашей компании, фотографий, услуг/товаров отзывов.
                                     </li>
                                 </ul>
                             </div>
@@ -455,10 +463,10 @@
                                 Корпоративный сайт
                             </div>
                             <div class="s-item-price">
-                                от <span>20 000</span> ₽
+                                от <span>15 500</span> ₽
                             </div>
                             <div class="s-item-desc">
-                                <p>Одностраничный сайт для одного товара или услуги с графическими элементами, отлично подходит для акционных товаров или услуг.</p>
+                                <p>Многостраничной сайт обычно от пяти страниц. Отлично подходит для бизнеса с несколькими видами похожих или смежных услуг.</p>
                             </div>
                             <div class="s-item-text">
                                 <ul>
@@ -468,7 +476,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        <span>Наполнение сайта</span>
+                                        Создаем основные страницы: главная, контакты, отзывы, список услуг/товаров, новости, статьи, о компании
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -476,7 +484,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Верстка проекта
+                                        Шаблонный либо уникальный дизайн
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -484,7 +492,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Формы захвата
+                                        Адаптация под мобильные устройства
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -492,7 +500,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Управление через CMS
+                                        Верстка макета сайта с нуля либо адаптация под корпоративные цвета и услуги вашего бизнеса
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -500,7 +508,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Уникальный/шаблонный дизайн
+                                        Управление содержимым сайта через CMS
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -516,7 +524,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Уникальный/шаблонный дизайн
+                                        Формы захвата
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -524,7 +532,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Подключение дополнительных виджетов
+                                        Установка виджетов
                                     </li>
                                 </ul>
                             </div>
@@ -547,7 +555,7 @@
                                 от <span>15 500</span> ₽
                             </div>
                             <div class="s-item-desc">
-                                <p>Одностраничный сайт для одного товара или услуги с графическими элементами, отлично подходит для акционных товаров или услуг.</p>
+                                <p>Многостраничной сайт для представления одного вида услуг либо товаров обычно до пяти страниц.</p>
                             </div>
                             <div class="s-item-text">
                                 <ul>
@@ -557,7 +565,7 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        <span>Наполнение сайта</span>
+                                        Создаем основные страницы: главная, контакты, отзывы, список услуг/товаров, новости, о компании
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -565,7 +573,39 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Верстка проекта
+                                        Шаблонный либо уникальный дизайн
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Адаптация под мобильные устройства
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Верстка макета сайта с нуля либо адаптация под корпоративные цвета и услуги вашего бизнеса
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Управление содержимым сайта через CMS
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Формы обратной связи
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -581,7 +621,40 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Управление через CMS
+                                        Установка виджетов
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="s-item-btn">
+                                <div class="btn btn-styled" data-service="Сайт-визитка">
+                                    Заказать
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="s-item">
+                            <div class="s-item-name">
+                                Сайт-каталог
+                            </div>
+                            <div class="s-item-price">
+                                от <span>30 000</span> ₽
+                            </div>
+                            <div class="s-item-desc">
+                                <p>Сайт для презентации большого количества товаров или услуг с возможностью помещения в корзину и заказа.</p>
+                            </div>
+                            <div class="s-item-text">
+                                <ul>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Создаем основные страницы: главная, контакты, отзывы, каталог услуг, каталог товаров, страница с описанием товара, новости, статьи, о компании
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -589,7 +662,55 @@
                                                 <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
                                             </svg>
                                         </div>
-                                        Уникальный/шаблонный дизайн
+                                        Возможность подключения корзины
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Возможность подключения поиска для сайта
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Наполнение сайта и каталога- 3 категорий по 10 товаров, более – за дополнительную плату
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Шаблонный либо уникальный дизайн
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Адаптация под мобильные устройства
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Верстка макета сайта с нуля либо адаптация под корпоративные цвета и услуги вашего бизнеса
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Управление содержимым сайта через CMS
                                     </li>
                                     <li>
                                         <div class="icon-default">
@@ -599,10 +720,220 @@
                                         </div>
                                         Формы обратной связи
                                     </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Формы захвата
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Установка виджетов
+                                    </li>
                                 </ul>
                             </div>
                             <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Сайт-визитка">
+                                <div class="btn btn-styled" data-service="Сайт-каталог">
+                                    Заказать
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="s-item">
+                            <div class="s-item-name">
+                                Промо-сайт
+                            </div>
+                            <div class="s-item-price">
+                                от <span>25 000</span> ₽
+                            </div>
+                            <div class="s-item-desc">
+                                <p>Сайт для раскрутки брэнда, товара, услуги либо события. Чаще всего создается при проведении рекламной акции.</p>
+                            </div>
+                            <div class="s-item-text">
+                                <ul>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Разработка концепции и реализация уникального дизайна
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Полное наполнение сайта под Ваше торговое предложение или акцию
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Проработка УТП, CTA, акционных баннеров
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Одностраничный сайт
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Верстка макета дизайна сайта с нуля
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Формы захвата, формы обратной связи типа «Заказать звонок»
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Без CMS
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="s-item-btn">
+                                <div class="btn btn-styled" data-service="Промо-сайт">
+                                    Заказать
+                                    <svg class="icon">
+                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="s-item">
+                            <div class="s-item-name">
+                                Интернет-магазин
+                            </div>
+                            <div class="s-item-price">
+                                от <span>40 000</span> ₽
+                            </div>
+                            <div class="s-item-desc">
+                                <p>Полноценный магазин в интернете с корзиной для заказа товара личным кабинетом поиском и фильтрами.</p>
+                            </div>
+                            <div class="s-item-text">
+                                <ul>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Создаем основные страницы: главная, контакты, отзывы, каталог услуг, каталог товаров, страница с описанием товара, новости, статьи, о компании
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Предусмотрено управление заказами через ЦМС
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Дизайн под ключ либо готовый
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Адаптация под мобильные устройства
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Наполнение сайта и каталога- 5 категорий по 10 товаров, более – за дополнительную плату
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Подключение корзины, поиска, фильтров
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Реализация личного кабинета, входа и регистрации
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Формы обратной связи
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Формы захвата
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Установка виджетов
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Инструкция для самостоятельного редактирования и наполнения сайта
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="s-item-btn">
+                                <div class="btn btn-styled" data-service="Интернет-магазин">
                                     Заказать
                                     <svg class="icon">
                                         <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>

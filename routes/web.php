@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', static function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::post('send-order', 'OrderController')->name('send.order');
 Route::post('send-contact', 'ContactController')->name('send.contact');
