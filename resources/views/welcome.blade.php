@@ -321,20 +321,20 @@
                                         <option value="Корпоративный сайт">Корпоративный сайт</option>
                                         <option value="Landing page">Landing page</option>
                                         <option value="Сайт-визитка">Сайт-визитка</option>
-                                        <option value="Промо-сайт">Промо-визитка</option>
+                                        <option value="Промо-сайт">Промо-сайт</option>
                                         <option value="Сайт-каталог">Сайт-каталог</option>
                                         <option value="Интернет-магазин">Интернет-магазин</option>
                                     </select>
                                 </div>
                                 <div class="group">
-                                    <input type="text" value="" name="name" placeholder="Имя" autocomplete="off" required>
+                                    <input type="text" value="" name="name" placeholder="Имя" autocomplete="off" required minlength="3">
                                 </div>
                                 <div class="group group-two">
                                     <div class="group">
                                         <input type="email" value="" name="email" placeholder="Email" autocomplete="off" required>
                                     </div>
                                     <div class="group">
-                                        <input type="text" value="" name="phone" placeholder="Телефон" autocomplete="off" required>
+                                        <input type="text" value="" name="phone" autocomplete="off" required>
                                     </div>
                                 </div>
                                 <div class="info">
@@ -959,14 +959,14 @@
                             <form action="{{ route('send.contact') }}" id="contacts-form" method="post">
                                 @csrf
                                 <div class="group">
-                                    <input type="text" name="name" placeholder="Имя" required autocomplete="off">
+                                    <input type="text" name="name" placeholder="Имя" required autocomplete="off" minlength="3">
                                 </div>
                                 <div class="group group-two">
                                     <div class="group">
                                         <input type="email" value="" name="email" placeholder="Email" required autocomplete="off">
                                     </div>
                                     <div class="group">
-                                        <input type="text" value="" name="phone" placeholder="Телефон" required autocomplete="off">
+                                        <input type="text" value="" name="phone" required autocomplete="off">
                                     </div>
                                 </div>
                                 <div class="info">
