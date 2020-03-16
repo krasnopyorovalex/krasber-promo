@@ -41,7 +41,7 @@
                             <div class="h-top-menu">
                                 <ul>
                                     <li class="active">
-                                        <a href="#">О нас</a>
+                                        <a href="#s-guarantees">О нас</a>
                                     </li>
                                     <li>
                                         <a href="#s-portfolio">Портфолио</a>
@@ -103,7 +103,7 @@
             </div>
         </header>
 
-        <section class="guarantees">
+        <section class="guarantees" id="s-guarantees">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
