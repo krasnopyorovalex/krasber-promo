@@ -672,6 +672,97 @@
                     <div class="col-4">
                         <div class="s-item">
                             <div class="s-item-name">
+                                Промо-сайт
+                            </div>
+                            <div class="s-item-price">
+                                от <span>25 000</span> ₽
+                            </div>
+                            <div class="s-item-desc">
+                                <p>Сайт для раскрутки брэнда, товара, услуги либо события. Чаще всего создается при проведении рекламной акции.</p>
+                            </div>
+                            <div class="s-item-text">
+                                <ul>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Разработка концепции и реализация уникального дизайна
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Полное наполнение сайта под Ваше торговое предложение или акцию
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Проработка УТП, CTA, акционных баннеров
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Одностраничный сайт
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Верстка макета дизайна сайта с нуля
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Формы захвата, формы обратной связи типа «Заказать звонок»
+                                    </li>
+                                    <li>
+                                        <div class="icon-default">
+                                            <svg>
+                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
+                                            </svg>
+                                        </div>
+                                        Без CMS
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
+                                    </svg>
+                                </div>
+                                Срок создания: <span>от 20 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Промо-сайт">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="s-item">
+                            <div class="s-item-name">
                                 Сайт-каталог
                             </div>
                             <div class="s-item-price">
@@ -783,97 +874,6 @@
                             <div class="s-item-btn">
                                 <div>
                                     <div class="btn btn-styled" data-service="Сайт-каталог">
-                                        Заказать
-                                        <svg class="icon">
-                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="s-item">
-                            <div class="s-item-name">
-                                Промо-сайт
-                            </div>
-                            <div class="s-item-price">
-                                от <span>25 000</span> ₽
-                            </div>
-                            <div class="s-item-desc">
-                                <p>Сайт для раскрутки брэнда, товара, услуги либо события. Чаще всего создается при проведении рекламной акции.</p>
-                            </div>
-                            <div class="s-item-text">
-                                <ul>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Разработка концепции и реализация уникального дизайна
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Полное наполнение сайта под Ваше торговое предложение или акцию
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Проработка УТП, CTA, акционных баннеров
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Одностраничный сайт
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Верстка макета дизайна сайта с нуля
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Формы захвата, формы обратной связи типа «Заказать звонок»
-                                    </li>
-                                    <li>
-                                        <div class="icon-default">
-                                            <svg>
-                                                <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-check') }}"></use>
-                                            </svg>
-                                        </div>
-                                        Без CMS
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="s-item-terms">
-                                <div class="icon-default">
-                                    <svg>
-                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
-                                    </svg>
-                                </div>
-                                Срок создания: <span>от 20 рабочих дней</span>
-                            </div>
-                            <div class="s-item-btn">
-                                <div>
-                                    <div class="btn btn-styled" data-service="Промо-сайт">
                                         Заказать
                                         <svg class="icon">
                                             <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
