@@ -58,7 +58,7 @@
                                 </ul>
                             </div>
                             <div class="h-top-phone">
-                                <a href="tel:+7(978)754-74-99">+7(978)754-74-99</a>
+                                <a href="tel:+79787547499">+7(978)754-74-99</a>
                             </div>
                             <div class="h-top-btn">
                                 <div class="btn">
