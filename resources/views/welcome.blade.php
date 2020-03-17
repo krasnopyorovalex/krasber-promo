@@ -451,12 +451,22 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Landing page">
-                                    Заказать
-                                    <svg class="icon">
-                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
+                                </div>
+                                Срок создания: <span>от 7 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Landing page">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -540,12 +550,22 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Корпоративный сайт">
-                                    Заказать
-                                    <svg class="icon">
-                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
+                                </div>
+                                Срок создания: <span>от 7 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Корпоративный сайт">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -629,12 +649,22 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Сайт-визитка">
-                                    Заказать
-                                    <svg class="icon">
-                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
+                                </div>
+                                Срок создания: <span>от 7 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Сайт-визитка">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -742,12 +772,22 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Сайт-каталог">
-                                    Заказать
-                                    <svg class="icon">
-                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
+                                </div>
+                                Срок создания: <span>от 7 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Сайт-каталог">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -823,12 +863,22 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Промо-сайт">
-                                    Заказать
-                                    <svg class="icon">
-                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
+                                </div>
+                                Срок создания: <span>от 7 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Промо-сайт">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -936,12 +986,22 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="s-item-btn">
-                                <div class="btn btn-styled" data-service="Интернет-магазин">
-                                    Заказать
-                                    <svg class="icon">
-                                        <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                            <div class="s-item-terms">
+                                <div class="icon-default">
+                                    <svg>
+                                        <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
+                                </div>
+                                Срок создания: <span>от 7 рабочих дней</span>
+                            </div>
+                            <div class="s-item-btn">
+                                <div>
+                                    <div class="btn btn-styled" data-service="Интернет-магазин">
+                                        Заказать
+                                        <svg class="icon">
+                                            <use xlink:href="{{ asset('img/sprites/sprite.svg#icon-cheveron-down') }}"></use>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
