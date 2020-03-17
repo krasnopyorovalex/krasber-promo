@@ -778,7 +778,7 @@
                                         <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
                                 </div>
-                                Срок создания: <span>от 7 рабочих дней</span>
+                                Срок создания: <span>от 20 рабочих дней</span>
                             </div>
                             <div class="s-item-btn">
                                 <div>
@@ -869,7 +869,7 @@
                                         <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
                                 </div>
-                                Срок создания: <span>от 7 рабочих дней</span>
+                                Срок создания: <span>от 20 рабочих дней</span>
                             </div>
                             <div class="s-item-btn">
                                 <div>
@@ -992,7 +992,7 @@
                                         <use xlink:href="../img/sprites/sprite.svg#icon-time"></use>
                                     </svg>
                                 </div>
-                                Срок создания: <span>от 7 рабочих дней</span>
+                                Срок создания: <span>от 20 рабочих дней</span>
                             </div>
                             <div class="s-item-btn">
                                 <div>
